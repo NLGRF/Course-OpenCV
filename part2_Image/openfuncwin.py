@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
-img1 = cv2.imread('test.png',0)
-img2 = cv2.imread('cat_new.png',cv2.IMREAD_COLOR)
+img1 = cv2.imread('C:\\Users\\non19\\Desktop\\OpenCV\\part2_Image\\test.png',0)
+img2 = cv2.imread('C:\\Users\\non19\\Desktop\\OpenCV\\part2_Image\\cat_new.png',cv2.IMREAD_COLOR)
 cv2.namedWindow('test.png', cv2.WINDOW_AUTOSIZE)
 cv2.imshow('test.png',img1)
 cv2.namedWindow('cat_new.png', cv2.WINDOW_NORMAL)

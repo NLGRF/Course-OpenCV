@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('test.png',cv2.IMREAD_COLOR)
+img = cv2.imread('C:\\Users\\non19\\Desktop\\OpenCV\\part2_Image\\test.png',cv2.IMREAD_COLOR)
 cv2.imshow('cat',img)
 key = cv2.waitKey(0)
 if key == 27: # wait for ESC key to exit
